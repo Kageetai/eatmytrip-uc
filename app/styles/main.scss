@@ -1,6 +1,5 @@
 $icon-font-path: '../fonts/';
 // bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
 .browserupgrade {
@@ -111,5 +110,6 @@ $scale-base-1: (1 + $scale / 100%);
   h2 {
     display: block;
     text-transform: lowercase;
+    font-weight: inherit;
   }
 }
